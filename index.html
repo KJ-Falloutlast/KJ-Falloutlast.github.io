@@ -48,6 +48,36 @@
           </tr>
         </tbody></table>
 
+     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/iros2025.jpg" alt="CM-LIUW-Odometry" width="160">
+            </td>
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://github.com/KJ-Falloutlast/CM-LIUW-Odometry">
+                <span class="papertitle">CM-LIUW-Odometry: Robust and High-Precision LiDAR-Inertial-UWB-Wheel Odometry for Extreme Degradation Coal Mine Tunnels</span>
+            </a>
+            <br>
+            <strong>Kun Hu</strong>,
+            <a href="https://github.com/KJ-Falloutlast">Kun Hu</a>,
+            <a href="https://orcid.org/0000-0002-2395-9543">Menggang Li</a>,
+            <a href="https://orcid.org/0009-0008-6412-4711">Zhiwen Jin</a>,
+            <a href="https://orcid.org/0000-0003-1641-9845">Chaoquan Tang</a>,
+            <a href="https://orcid.org/0000-0002-3932-4542">Eryi Hu</a>,
+            <a href="https://orcid.org/0000-0002-8672-2535">Gongbo Zhou</a>
+            <br>
+            <em>IROS</em>, 2025
+            <br>
+            [<a href="https://arxiv.org/abs/2511.01379">arXiv</a>]
+            [<a href="https://github.com/KJ-Falloutlast/CM-LIUW-Odometry">code</a>]
+            <p></p>
+            <p>
+				Simultaneous Localization and Mapping (SLAM) in large-scale, complex, and GPS-denied underground coal mine environments presents significant challenges. Sensors must contend with abnormal operating conditions: GPS unavailability impedes scene reconstruction and absolute geographic referencing, uneven or slippery terrain degrades wheel odometer accuracy, and long, feature-poor tunnels reduce LiDAR effectiveness. To address these issues, we propose CoalMine-LiDAR-IMU-UWB-Wheel-Odometry (CM-LIUW-Odometry), a multimodal SLAM framework based on the Iterated Error-State Kalman Filter (IESKF). First, LiDAR-inertial odometry is tightly fused with UWB absolute positioning constraints to align the SLAM system with a global coordinate. Next, wheel odometer is integrated through tight coupling, enhanced by nonholonomic constraints (NHC) and vehicle lever arm compensation, to address performance degradation in areas beyond UWB measurement range. Finally, an adaptive motion mode switching mechanism dynamically adjusts the robot’s motion mode based on UWB measurement range and environmental degradation levels. Experimental results validate that our method achieves superior accuracy and robustness in real-world underground coal mine scenarios, outperforming state-of-the-art approaches. We open source our code of this work on Github to benefit the robotics community.
+            </p>
+            </td>
+          </tr>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -59,8 +89,8 @@
                 <span class="papertitle">Adaptive-LIO: Enhancing Robustness and Precision through Environmental Adaptation in LiDAR Inertial Odometry</span>
             </a>
             <br>
-            <a href="https://github.com/chengwei0427">Chengwei Zhao</a><sup>*</sup>,
-            <strong>Kun Hu</strong><sup>*</sup>,
+            <a href="https://github.com/chengwei0427">Chengwei Zhao</a>,
+            <strong>Kun Hu</strong>,
             <a href="https://github.com/jiejie567">Jie Xu</a>,
             <a href="https://orcid.org/0000-0002-9108-8276">Lijun Zhao</a>,
             <a href="https://orcid.org/0009-0009-0503-8810">Baiwen Han</a>,
@@ -70,7 +100,6 @@
             <br>
             <em>IEEE Internet of Things Journal (IOTJ)</em>, 2024
             <br>
-            (* Equal contribution)
             [<a href="https://arxiv.org/abs/2503.05077">arXiv</a>]
             [<a href="https://github.com/chengwei0427/Adaptive-LIO">code</a>]
             <p></p>
@@ -80,18 +109,20 @@
             </td>
           </tr>
 
+
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/remoteSensing-2023.png" alt="LIU-SLAM" width="160">
             </td>
-			  
+
             <td style="padding:20px;width:75%;vertical-align:middle">
             <a href="https://www.mdpi.com/2072-4292/15/21/5093">
                 <span class="papertitle">A Multimodal Robust Simultaneous Localization and Mapping Approach Driven by Geodesic Coordinates for Coal Mine Mobile Robots</span>
             </a>
             <br>
-            <a>MengGang Li</a>,
+            <a>Chengwei Zhao</a>,
             <strong>Kun Hu</strong>,
+            <a href="https://github.com/KJ-Falloutlast">Kun hu</a>,
             <a>Yuwang Liu</a>,
             <a>Eryi Hu</a>,
             <a>Chaoquan Tang</a>,
@@ -107,36 +138,6 @@
             </p>
             </td>
           </tr>
-
-		<tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/li2025adaptive.png" alt="LIU-SLAM" width="160">
-            </td>
-			  
-            <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://ieeexplore.ieee.org/document/11141484">
-                <span class="papertitle">Adaptive High-Resolution Dynamic Scanning System and Method for Deformation Monitoring of Underground Infrastructure</span>
-            </a>
-            <br>
-            <a>MengGang Li</a>,
-            <a>Zhuoqi Li</a>,
-            <strong>Kun Hu</strong>,
-            <a>Eryi Hu</a>,
-            <a>Chaoquan Tang</a>,
-            <a>Gongbo Zhou</a>,
-            <br>
-            <em>IEEE Transactions on Instrumentation and Measurement</em>, 2025
-            <br>
-            [<a href="https://ieeexplore.ieee.org/document/11141484">PDF</a>]
-            <p></p>
-            <p>
-              To address critical challenges in underground infrastructure safety, this paper proposes an adaptive dynamic high-resolution scanning method employing a station-based device for deformation monitoring in coal mine sealing walls. By integrating LiDAR, inertial measurements, and encoder data, we developed a hierarchical processing framework comprising feature extraction, state estimation, and spatiotemporal registration of 3D pointclouds.
-            </p>
-            </td>
-        </tr>
-
-
-
         </tbody>
       </table>
 
