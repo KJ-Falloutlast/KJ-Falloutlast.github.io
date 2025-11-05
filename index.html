@@ -73,7 +73,7 @@
             [<a href="https://github.com/KJ-Falloutlast/CM-LIUW-Odometry">code</a>]
             <p></p>
             <p>
-				Simultaneous Localization and Mapping (SLAM) in large-scale, complex, and GPS-denied underground coal mine environments presents significant challenges. Sensors must contend with abnormal operating conditions: GPS unavailability impedes scene reconstruction and absolute geographic referencing, uneven or slippery terrain degrades wheel odometer accuracy, and long, feature-poor tunnels reduce LiDAR effectiveness. To address these issues, we propose CoalMine-LiDAR-IMU-UWB-Wheel-Odometry (CM-LIUW-Odometry), a multimodal SLAM framework based on the Iterated Error-State Kalman Filter (IESKF). First, LiDAR-inertial odometry is tightly fused with UWB absolute positioning constraints to align the SLAM system with a global coordinate. Next, wheel odometer is integrated through tight coupling, enhanced by nonholonomic constraints (NHC) and vehicle lever arm compensation, to address performance degradation in areas beyond UWB measurement range. Finally, an adaptive motion mode switching mechanism dynamically adjusts the robot’s motion mode based on UWB measurement range and environmental degradation levels. Experimental results validate that our method achieves superior accuracy and robustness in real-world underground coal mine scenarios, outperforming state-of-the-art approaches. We open source our code of this work on Github to benefit the robotics community.
+                Simultaneous Localization and Mapping (SLAM) in large-scale, GPS-denied coal mines is hindered by feature-poor tunnels, unreliable wheel odometry on rough terrain, and lack of global reference. To tackle these challenges, we present CM-LIUW-Odometry, a multimodal SLAM framework based on the Iterated Error-State Kalman Filter (IESKF). It tightly fuses LiDAR-inertial odometry with UWB for global alignment, integrates wheel odometry enhanced by nonholonomic constraints and lever-arm compensation for UWB-outage zones, and employs an adaptive motion-mode switching mechanism based on UWB coverage and environmental degradation. Real-world experiments show our method outperforms state-of-the-art approaches in accuracy and robustness. Code is publicly released on GitHub.
             </p>
             </td>
           </tr>
@@ -109,7 +109,6 @@
             </td>
           </tr>
 
-
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/remoteSensing-2023.png" alt="LIU-SLAM" width="160">
@@ -141,11 +140,10 @@
         </tbody>
       </table>
 
-          <tr>
+        <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/TIM-2025.png" alt="LI-Encoder-SLAM" width="160">
             </td>
-
             <td style="padding:20px;width:75%;vertical-align:middle">
             <a href="https://ieeexplore.ieee.org/document/11141484">
                 <span class="papertitle">Adaptive High-Resolution Dynamic Scanning System and Method for Deformation Monitoring of Underground Infrastructure</span>
@@ -164,7 +162,7 @@
             [<a href="https://ieeexplore.ieee.org/document/11141484">PDF</a>]
             <p></p>
             <p>
-				To address critical challenges in underground infrastructure safety, this article proposes an adaptive dynamic high-resolution scanning method employing a station-based device for deformation monitoring in coal mine sealing walls. By integrating LiDAR, inertial measurements, and encoder data, we developed a hierarchical processing framework comprising feature extraction, state estimation, and spatiotemporal registration of 3-D point clouds. A penalty function-based adaptive scanning strategy was formulated to optimize point cloud density and geometric fidelity during data acquisition, which was subsequently integrated into the system. An equipment placement optimization model accounting for installation geometry and region-of-interest characteristics was established, enabling efficient and accurate capture of deformation details in sealing walls of varying dimensions. The system’s performance was evaluated using two novel metrics: point cloud acquisition temporal density (PATD) and point cloud relative area error (PRAE). An ablation study comparing scanning methods and penalty term configurations demonstrated the superiority of the proposed adaptive strategy. Calibration experiments revealed that for a 1.08 m2, optimal monitoring parameters were achieved, with data completeness attained at a 1.68-m monitoring distance within 51.6 s. Field validation under simulated deformation conditions, using a 5-m2 ROI, evaluated three monitoring distances. Results aligned closely with theoretical predictions, identifying 3.59 m as the optimal distance and validating the system’s capability to detect centimeter-scale displacements. This work establishes a framework for continuous infrastructure health monitoring in confined underground environments.
+                This paper presents an adaptive, high-resolution scanning method for deformation monitoring of coal mine sealing walls using a station-based LiDAR system. By fusing LiDAR, inertial, and encoder data, we developed a hierarchical framework for feature extraction, state estimation, and spatiotemporal registration of 3D point clouds. An adaptive scanning strategy—guided by a penalty function—dynamically optimizes point density and geometric fidelity during acquisition, while an equipment placement model tailors sensor positioning to the geometry and region of interest. We introduce two evaluation metrics: point cloud acquisition temporal density (PATD) and point cloud relative area error (PRAE). Experiments on a 1.08 m² wall achieved full coverage in 51.6 s at 1.68 m distance. Field tests on a 5 m² area under simulated deformation confirmed 3.59 m as the optimal monitoring distance and demonstrated reliable detection of centimeter-scale displacements. The system provides a practical solution for continuous structural health monitoring in confined underground spaces.
             </p>
             </td>
           </tr>
