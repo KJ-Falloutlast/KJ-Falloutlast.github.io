@@ -1,7 +1,7 @@
 locale: "en-US"
 site_theme: "default"
 
-title: "Kun Hu | 胡坤"
+title: "Kun Hu | 胡琨"
 title_separator: "-"
 name: &name "Kun Hu"
 description: &description "Robust SLAM and multi-sensor fusion for coal mine robots"
@@ -11,7 +11,7 @@ repository: "KJ-Falloutlast/KJ-Falloutlast.github.io"
 
 author:
   avatar: "profile.png"
-  name: "Kun Hu | 胡坤"
+  name: "Kun Hu | 胡琨"
   bio: "Master student at CoalMine Robot Lab, China University of Mining and Technology. Research interests: Multisensor Fusion SLAM, Spatial AI, and Visual Language Action"
   location: "Xuzhou, China"
   employer: "China University of Mining and Technology"

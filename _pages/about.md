@@ -94,4 +94,9 @@ This work presents an adaptive high-resolution scanning system for underground i
 
 ## Academic Service
 
-Reviewer of: To be updated.
+Reviewer of IROS 2025
+Reviewer of IROS 2026
+Reviewer of IOTJ
+Reviewer of TIM
+
+
