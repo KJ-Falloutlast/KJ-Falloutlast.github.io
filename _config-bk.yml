@@ -1,0 +1,30 @@
+locale: "en-US"
+site_theme: "default"
+
+title: "Kun Hu | 胡坤"
+title_separator: "-"
+name: &name "Kun Hu"
+description: &description "Robust SLAM and multi-sensor fusion for coal mine robots"
+url: https://kj-falloutlast.github.io
+baseurl: ""
+repository: "KJ-Falloutlast/KJ-Falloutlast.github.io"
+
+author:
+  avatar: "profile.png"
+  name: "Kun Hu | 胡坤"
+  bio: "Master student at CoalMine Robot Lab, China University of Mining and Technology. Research interests: robust SLAM, LiDAR-Inertial-UWB-Wheel fusion, and coal mine robots."
+  location: "Xuzhou, China"
+  employer: "China University of Mining and Technology"
+  email: "你的邮箱"
+  googlescholar: "你的 Google Scholar 链接"
+  orcid: "你的 ORCID 链接"
+  github: "KJ-Falloutlast"
+  linkedin: "你的 LinkedIn 用户名"
+
+publication_category:
+  manuscripts:
+    title: "Journal Articles"
+  conferences:
+    title: "Conference Papers"
+  patents:
+    title: "Patents"
