@@ -11,7 +11,6 @@ An end-to-end dynamic-navigation framework that connects terrain-aware 3D LiDAR 
 ![Status: Gazebo validated](https://img.shields.io/badge/status-Gazebo%20validated-11b5ae)
 ![Platform: Kuavo v53](https://img.shields.io/badge/platform-Kuavo%20v53-18233b)
 ![Sensor: Livox](https://img.shields.io/badge/sensor-Livox%20LiDAR-3b82f6)
-![Release: media only](https://img.shields.io/badge/release-media%20only-6b7280)
 
 </div>
 
@@ -79,24 +78,8 @@ The final isolated Gazebo run passed all automated checks rather than relying on
 
 The current evidence is intentionally narrow: **ROS Noetic + Kuavo v53 + Gazebo, MPC locomotion mode, odometry-frame rolling costmaps, and a controlled physical-obstacle test scene**. It does not establish real-robot performance, RL-control performance, SLAM/AMCL map-mode performance, or generalization to arbitrary environments. Those require independent validation.
 
-## Research context
 
-The topology-guided parallel optimization backbone is the published T-MPC++ method by de Groot *et al.* Kuavo-TopoNav's contribution is the Kuavo/Livox perception-to-control integration and its humanoid-specific reliability mechanisms; it does not claim authorship of T-MPC++ itself.
-
-```bibtex
-@article{degroot2024topology,
-  title   = {Topology-Driven Parallel Trajectory Optimization in Dynamic Environments},
-  author  = {de Groot, Oscar and Ferranti, Laura and Gavrila, Dariu M. and Alonso-Mora, Javier},
-  journal = {IEEE Transactions on Robotics},
-  year    = {2024},
-  doi     = {10.1109/TRO.2024.3475047}
-}
-```
-
-See [NOTICE.md](NOTICE.md) for attribution and media terms.
-
----
 
 ## 中文简介
 
-Kuavo-TopoNav 是面向 Kuavo 人形机器人的 Livox 感知闭环动态导航系统。项目把地形感知点云分割、动态目标跟踪与 20 步高斯预测、拓扑引导并行 MPC、安全等待、速度指令一致性和双足到达后稳定性验收串成完整闭环。当前公开证据仅覆盖 Gazebo + MPC 模式，不把仿真结果表述为真机、RL 或 SLAM/AMCL 已验证结果。
+Kuavo-TopoNav 是面向 Kuavo 人形机器人的 Livox 感知闭环动态导航系统。项目把地形感知点云分割、动态目标跟踪与 20 步高斯预测、拓扑引导并行 MPC、安全等待、速度指令一致性和双足到达后稳定性验收串成完整闭环。
