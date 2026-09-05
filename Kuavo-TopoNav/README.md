@@ -6,7 +6,7 @@
 
 An end-to-end dynamic-navigation framework that connects terrain-aware 3D LiDAR perception, online motion prediction, topology-guided parallel trajectory optimization, and biped-safe command execution on the Kuavo humanoid platform.
 
-[Project Page](https://kj-falloutlast.github.io/Kuavo-TopoNav/) · [Demo Video](assets/media/kuavo-toponav-demo.mp4) · [Method Reference](https://arxiv.org/abs/2401.06021)
+[Project Page](https://kj-falloutlast.github.io/Kuavo-TopoNav/) · [Demo Video](assets/media/kuavo-toponav-demo.mp4) 
 
 ![Status: Gazebo validated](https://img.shields.io/badge/status-Gazebo%20validated-11b5ae)
 ![Platform: Kuavo v53](https://img.shields.io/badge/platform-Kuavo%20v53-18233b)
